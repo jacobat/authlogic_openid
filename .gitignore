@@ -5,3 +5,5 @@ pkg/*
 coverage/*
 doc/*
 benchmarks/*
+authlogic-oid.gemspec
+.source_index
