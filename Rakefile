@@ -9,6 +9,7 @@ begin
     gemspec.email = "jacob@incremental.dk"
     gemspec.homepage = "http://github.com/jacobat/authlogic_openid"
     gemspec.authors = ["Ben Johnson of Binary Logic", "Michael Reinsch"]
+    gemspec.add_dependency("authlogic", ">= 0")
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
